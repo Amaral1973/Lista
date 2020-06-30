@@ -1,0 +1,9 @@
+C:\Programas\ExLIsta\bin\Debug\ExLIsta.exe.config
+C:\Programas\ExLIsta\bin\Debug\ExLIsta.exe
+C:\Programas\ExLIsta\bin\Debug\ExLIsta.pdb
+C:\Programas\ExLIsta\obj\Debug\ExLIsta.csprojAssemblyReference.cache
+C:\Programas\ExLIsta\obj\Debug\ExLIsta.frmExLista.resources
+C:\Programas\ExLIsta\obj\Debug\ExLIsta.Properties.Resources.resources
+C:\Programas\ExLIsta\obj\Debug\ExLIsta.csproj.GenerateResource.cache
+C:\Programas\ExLIsta\obj\Debug\ExLIsta.exe
+C:\Programas\ExLIsta\obj\Debug\ExLIsta.pdb
