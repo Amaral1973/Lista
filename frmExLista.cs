@@ -118,5 +118,25 @@ namespace ExLIsta
             }
             MessageBox.Show("Lista gravada com sucesso!", "Gravação", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
+
+        private void btnEditar_Click(object sender, EventArgs e)
+        {
+            Int32 Lid = Convert.ToInt32(txtId.Text);
+            List<Pessoa> ed = pLista;
+            var edpessoa = ed.FirstOrDefault(x => x.ID == Lid);
+            if (edpessoa !=null)
+            {
+                edpessoa.ID = Convert.ToInt32(txtId.Text);
+                edpessoa.Nome = txtNome.Text;
+                edpessoa.Idade = Convert.ToSByte(txtIdade.Text);
+                edpessoa.Sexo = Convert.ToChar(txtSexo.Text);
+            }
+            lbResultado.Items.Clear();
+            Imprimir(pLista, "Lista Editada");
+            txtId.Text = "";
+            txtNome.Text = "";
+            txtIdade.Text = "";
+            txtSexo.Text = "";
+        }
     }
 }
